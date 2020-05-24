@@ -160,6 +160,13 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  max-height: 20px;
+}
+
+#header #logo .logo-text {
+  padding-left: 10px;
+  border-left: 4px solid #18d26e;
+  max-height: 20px;
 }
 
 @media (max-width: 768px) {
@@ -169,6 +176,18 @@ h1, h2, h3, h4, h5, h6 {
   #header #logo img {
     max-height: 40px;
   }
+}
+
+#footer #logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 20px;
+}
+
+#footer #logo .logo-text {
+  padding-left: 10px;
+  border-left: 4px solid #18d26e;
+  max-height: 20px;
 }
 
 /*--------------------------------------------------------------
