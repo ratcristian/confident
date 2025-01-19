@@ -229,6 +229,11 @@
     document.getElementById('contact-form').addEventListener('submit', async function (event) {
       event.preventDefault(); // Prevent the default form submission
 
+      const spinner = document.getElementById('spinner');
+      const alertBox = document.getElementById('alert');
+      spinner.style.display = 'block';
+      alertBox.style.display = 'none';
+
       const name = document.getElementById('name').value;
       const phone = document.getElementById('phone').value;
       const email = document.getElementById('email').value;
