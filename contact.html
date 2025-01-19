@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ConfiDent Clinica Stomatologica</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo/favicon.png" rel="icon">
+  <link href="assets/img/logo/favicon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/custom_style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: BizPage - v2.0.0
+  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .section-bg {
+      background: #f9f9f9;
+      padding: 60px 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-header h3 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .section-header p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      background: #0056b3;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #004494;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <!-- <h1><a href="#intro" class="scrollto">ConfiDent</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="#intro"><img src="assets/img/logo/c_light.png" alt=""><img src="assets/img/logo/confident_light.png"
+            class="logo-text" alt=""></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li>
+            <div class="social-links">
+
+              <a href="https://www.facebook.com/confidentclinic.ro/" class="facebook" target="_blank"><i
+                  class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/confidentclinic.ro/" class="instagram" target="_blank"><i
+                  class="fa fa-instagram"></i></a>
+            </div>
+          </li>
+          <li><a href="#intro">Acasa</a></li>
+          <li><a href="/#about">Despre noi</a></li>
+          <!-- <li><a href="#cabinet">Cabinetul Nostru</a></li> -->
+          <li><a href="/#services">Servicii</a></li>
+          <li><a href="/#portfolio">Portofoliu</a></li>
+          <li><a href="/#team">Echipa</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- End Header -->
+  <section id="portfolio" class="section-bg">
+    <div class="container">
+
+      <header class="section-header">
+        <h3 class="section-title">Solicitare Programare Confident</h3>
+      </header>
+
+
+      <div class="row contact-info">
+        <div class="col-md-6 col-sm-12">
+          <form id="contact-form">
+            <label for="name">Nume:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="phone">Telefon:</label><br>
+            <input type="text" id="phone" name="phone" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Mesaj:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button class="btn btn-primary" type="submit">Trimite</button>
+        </div>
+      </div>
+      </form>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', async function (event) {
+      event.preventDefault(); // Prevent the default form submission
+
+      const name = document.getElementById('name').value;
+      const phone = document.getElementById('phone').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      const payload = {
+        name: name,
+        phone: phone,
+        email: email,
+        message: message
+      };
+
+      try {
+        const response = await fetch('https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-30559238-5cde-4e1b-b0b7-fc41d0fc3e21/contact_form/emails', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (response.ok) {
+          alert('Mesaj trimis cu succes');
+        } else {
+          const errorData = await response.json();
+          alert('Eroare: ' + errorData.error);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('A aparut o eroare!');
+      }
+    });
+  </script>
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <!-- <h3>Confident</h3> -->
+            <div id="logo">
+              <a href="#intro"><img src="assets/img/logo/c_light.png" alt=""><img
+                  src="assets/img/logo/confident_light.png" class="logo-text" alt=""></a>
+            </div>
+            <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p> -->
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Link-uri utile</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Acasa</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Despre noi</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Servicii</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Echipa</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact</h4>
+            <p>
+              strada Zavoilui, numarul 9<br>
+              Ludus, judet Mures<br>
+              Romania <br>
+              <strong>Phone:</strong> 0736 611 989<br>
+              <strong>Email:</strong> office.confidentclinic@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://www.facebook.com/confidentclinic.ro/" class="facebook" target="_blank"><i
+                  class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/confidentclinic.ro/" class="instagram" target="_blank"><i
+                  class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/wow/wow.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/superfish/superfish.min.js"></script>
+  <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+  <script src="assets/vendor/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
